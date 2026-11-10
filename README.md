@@ -30,4 +30,4 @@ Google Gemini (for code generation, debugging, and responsive design structuring
 
 Live Website
 
-Link: [Insert your live website link here, e.g., GitHub Pages link]
+Link: [(https://mehruban-shah.github.io/cafe-minimalistic-website/index.html)]
