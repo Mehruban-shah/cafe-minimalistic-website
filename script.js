@@ -19,8 +19,14 @@ if (orderForm) {
         const quantity = parseInt(document.getElementById('quantity').value);
         const specs = document.getElementById('specs').value;
 
-        const pricePerItem = 150;
-        const deliveryCharges = 200;
+        const pricePerItem = 300;
+        const cearl = 150;
+        const biryani = 250;
+        const burger = 200;
+        const  pizza = 350;
+        const sandwich = 180;
+        const pasta = 220;
+        const deliveryCharges = 100;
 
         if (!menuItem) {
             alert("Please select a menu item.");
