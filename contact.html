@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Food Cafe</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact" class="section bg-light">
+        <h2>Order & Contact</h2>
+        <div class="form-container">
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="menuItem">Select Order ID</label>
+                    <select id="menuItem" required>
+                        <option value="">-- Select Menu Item --</option>
+                        <option value="M01 - Chicken Rosh">M01 - Chicken Rosh</option>
+                        <option value="M02 - Chicken Biryani">M02 - Chicken Biryani</option>
+                        <option value="M03 - Saada Biryani">M03 - Saada Biryani</option>
+                        <option value="M04 - Burger">M04 - Burger</option>
+                        <option value="M05 - Shawarma">M05 - Shawarma</option>
+                        <option value="M06 - Nuggets">M06 - Nuggets</option>
+                        <option value="M07 - Chicken Karahi">M07 - Chicken Karahi</option>
+                        <option value="M08 - Palak Sabzi">M08 - Palak Sabzi</option>
+                        <option value="M09 - Full Meal Nashta">M09 - Full Meal Nashta</option>
+                        <option value="M10 - Special Chai">M10 - Special Chai</option>
+                        <option value="M11 - Cereals">M11 - Cereals</option>
+                        <option value="M12 - Baked Beans">M12 - Baked Beans</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity (Rs. 150 each)</label>
+                    <input type="number" id="quantity" min="1" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="specs">Custom Specifications (e.g., less masala, more sugar)</label>
+                    <textarea id="specs" rows="3" placeholder="Enter your preferences here..."></textarea>
+                </div>
+                <button type="submit" class="btn animate-btn">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
